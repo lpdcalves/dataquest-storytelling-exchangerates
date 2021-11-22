@@ -6,7 +6,7 @@ The idea behind this Guided Project is to use the most commom datascience techni
 
 On top of that, I used common clean code, documentation and code-safety techniques to ensure my code was as close to a production ready code as I could get it.
 
-Below, are some graphs generated troughout the code:
+Below we have some graphs generated troughout the code:
 
 #### Euro to Dollar Exchange Rate
 
@@ -14,7 +14,15 @@ Below, are some graphs generated troughout the code:
 
 #### Simple graph showing Real to Euro Exchange Rate
 
-![img1](imgs/euro-dollar-exchange.jpg)
+![img2](imgs/real-euro-exchange-simple.jpg)
+
+#### Real to Euro Exchange Rate troughout the last 5 Brazilian presidents
+
+![img3](imgs/real-euro-exchange.jpg)
+
+#### Real to Dollar Exchange Rate troughout the last 5 Brazilian presidents
+
+![img4](imgs/real-dollar-exchange.jpg)
 
 ### Dependencies
 
