@@ -10,19 +10,20 @@ Below we have some graphs generated troughout the code:
 
 #### Euro to Dollar Exchange Rate
 
-![img1](imgs/euro-dollar-exchange.jpg)
+<img src="imgs/euro-dollar-exchange.jpg" width="500"/>
+
 
 #### Simple graph showing Real to Euro Exchange Rate
 
-![img2](imgs/real-euro-exchange-simple.jpg)
+<img src="imgs/real-euro-exchange-simple.jpg" width="300"/>
 
 #### Real to Euro Exchange Rate troughout the last 5 Brazilian presidents
 
-![img3](imgs/real-euro-exchange.jpg)
+<img src="imgs/real-euro-exchange.jpg" width="500"/>
 
 #### Real to Dollar Exchange Rate troughout the last 5 Brazilian presidents
 
-![img4](imgs/real-dollar-exchange.jpg)
+<img src="imgs/real-dollar-exchange.jpg" width="500"/>
 
 ### Dependencies
 
