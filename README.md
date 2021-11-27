@@ -8,28 +8,51 @@ On top of that, we used common clean code, documentation and code-safety techniq
 
 Below we have some graphs generated troughout the code:
 
-#### Euro to Dollar Exchange Rate
-
+### Euro to Dollar Exchange Rate
+<center>
 <img src="imgs/euro-dollar-exchange.jpg" width="600"/>
+</center>
 
+### Simple graph showing Real to Euro Exchange Rate
 
-#### Simple graph showing Real to Euro Exchange Rate
-
+<center>
 <img src="imgs/real-euro-exchange-simple.jpg" width="300"/>
+</center>
 
-#### Real to Euro Exchange Rate troughout the last 5 Brazilian presidents
+### Real to Euro Exchange Rate troughout the last 5 Brazilian presidents
 
+<center>
 <img src="imgs/real-euro-exchange.jpg" width="600"/>
+</center>
 
-#### Real to Dollar Exchange Rate troughout the last 5 Brazilian presidents
+### Real to Dollar Exchange Rate troughout the last 5 Brazilian presidents
 
+<center>
 <img src="imgs/real-dollar-exchange.jpg" width="600"/>
+</center>
 
-### Dependencies
 
-This repo depends uppon the following python libs:
- 
-- Pandas
-- Matplotlib
+## Dependencies
 
-We also use `pylint` to check if the code is up to [PEP8](https://www.python.org/dev/peps/pep-0008/) standards.
+This repo relies uppon the following python libs:
+-Pandas
+-Matplotlib
+
+We also use `pylint` to check if the code is up to [PEP8](https://www.python.org/dev/peps/pep-0008/) standards and was used `pytest` to ran automated tests of our main class.
+
+## Testing the code
+
+First of all we need to install the dependencies:
+```shell
+$ pip install pylint
+```
+```shell
+$ pip install pytest
+```
+Then we can run the tests:
+```shell
+$ pylint data_story_teller.py
+```
+```shell
+$ pytest test_data_story_teller.py
+```
